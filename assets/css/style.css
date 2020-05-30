@@ -1,0 +1,289 @@
+
+body {
+	position: relative;
+	font-family: 'Paytone One', sans-serif;
+  }
+  
+  nav {
+	background-color: goldenrod;
+	width: 100%;
+  }
+  
+  
+  
+  #navbar-toggler-icon {
+	color: slateblue
+  }
+  
+  li a {
+	color: seashell
+  }
+  
+  .jumbotron {
+	background-color:slateblue;
+	color: #fff;
+	height: 600px;
+	width: 100%;
+  }
+  
+  #name-tag {
+	-webkit-text-stroke: 1px seashell;
+	color:slategray;
+	font-size: 60px;
+  }
+  
+  .text-about i {
+	margin-left: 15px;
+	font-size: 40px;
+	color: seashell;
+  }
+  
+  .text-about i:hover {
+	color: goldenrod;
+  }
+  
+  h1 {
+	font-weight: 700;
+	font-size: 50px;
+  }
+  
+  .link-wrapper {
+	text-align: center;
+  }
+  
+  .embeddedLink {
+	font-weight: 700;
+	color: slateblue
+	text-decoration: none;
+	padding: 5px;
+	font-size: 20px;
+  }
+  
+  .embeddedLink:hover {
+	color: slategray;
+	background-color: palegoldenrod;
+	border-radius: 10px;
+	text-decoration: none;
+  }
+  
+  .portfolio {
+	display: inline-block;
+  }
+  
+  #portfolioHeader {
+	text-align: center;
+	color:slateblue;
+	font-weight: 700;
+	font-size: 55px;
+  }
+
+  
+  
+  .button-wrapper {
+	width: 100%;
+	text-align: center;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+		-ms-flex-flow: row wrap;
+			flex-flow: row wrap;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+  }
+  
+  #download-button {
+	border: solid 1px seashell;
+	color: seashell;
+	padding: 10px;
+	margin: 20px;
+  }
+  
+  #download-button:hover {
+	background-color: seashell;
+	color: goldenrod;
+  }
+  
+  #resume {
+	background-color: slateblue;
+  }
+  
+  #resume h2 {
+	color: seashell;
+	font-weight: 700;
+  }
+  
+  #resume li {
+	color: seashell;
+  }
+  
+  #resume dd {
+	color: seashell
+  }
+  
+  #resume dt {
+	color:seashell;
+  }
+  
+  #resume .skills {
+	width: 50%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+		-ms-flex-flow: column wrap;
+			flex-flow: column wrap;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+	float: left;
+  }
+  
+  #resume .skills .sub-header {
+	width: 100%;
+	border-top: solid 3px slateblue;
+  }
+  
+  #resume .education {
+	width: 50%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+		-ms-flex-flow: column wrap;
+			flex-flow: column wrap;
+	-webkit-box-pack: center;
+		-ms-flex-pack: center;
+			justify-content: center;
+	-webkit-box-align: center;
+		-ms-flex-align: center;
+			align-items: center;
+	float: left;
+  }
+  
+
+  
+  #resumeHeader {
+	text-align: center;
+	color: #fff;
+	font-weight: 700;
+	font-size: 55px;
+  }
+  
+  .star-primary {
+	width: 45%;
+	border-top: solid 3px slategray;
+  }
+  
+  #contact {
+	background-color: goldenrod;
+	text-align: center;
+	color: #fff;
+  }
+  
+  #contact p {
+	font-size: 18px;
+	color: #fff;
+  }
+  
+  #portfolio-header {
+	text-align: center;
+  }
+  
+  footer {
+	text-align: center;
+	margin: 20px 40px;
+	color: #6b6a6a;
+  }
+  
+  @media (max-width: 767px) {
+	#resume .col {
+	  width: 100%;
+	}
+	nav ul {
+	  display: block !important;
+	}
+	nav li a:hover {
+	  background-color: #00B2A9;
+	  color: #fff;
+	}
+  }
+  
+  .image-wrapper {
+	text-align: center;
+  }
+  
+  .portfolio-main-image {
+	width: 350px;
+  }
+  
+  @media (min-width: 768px) {
+	.text-about {
+	  text-align: justify;
+	  text-justify: inter-word;
+	  padding-left: 20%;
+	}
+	.skills {
+	  float: none;
+	  width: 100%;
+	}
+	.education {
+	  float: none;
+	  width: 100%;
+	}
+	li a {
+	  -webkit-transition: background-size .4s ease;
+	  transition: background-size .4s ease;
+	  background: -webkit-gradient(linear, left top, left bottom, color-stop(62%, transparent), color-stop(0, seashell) center center/0% 75% no-repeat;
+	  background: linear-gradient(to bottom, transparent 62%, slategray 0) center center/0% 75% no-repeat;
+	  font-family:  'Paytone One', sans-serif;
+	  padding: 0 6px 2px 6px;
+	  cursor: pointer;
+	  letter-spacing: .08rem;
+	}
+	li a:hover {
+	  background-size: 100% 100%;
+	  color:seashell;
+	}
+	li a:active {
+	  background-size: 80% 100%;
+	}
+  }
+  
+  .liveViewBtn {
+	background-color: #00B2A9;
+	color: #fff;
+  }
+  
+  .liveViewBtn:hover {
+	background-color: #fff;
+	color: #00B2A9;
+	border: 1px #00B2A9 solid;
+  }
+  
+  .viewCodebtn {
+	background-color: #fff;
+	color: #00B2A9;
+	border: 1px slategray;
+  }
+  
+  .viewCodebtn:hover {
+	background-color: palegoldenrod;
+	color: #fff;
+  }
+
+.btn-primary {
+	background-color: slateblue;
+}
+
+  
