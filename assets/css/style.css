@@ -1,8 +1,8 @@
 
 body {
-	position: relative;
+	position: relative; 
 	font-family: 'Paytone One', sans-serif;
-  }
+}
   
   nav {
 	background-color: goldenrod;
@@ -147,7 +147,7 @@ body {
 	-webkit-box-align: center;
 		-ms-flex-align: center;
 			align-items: center;
-	float: left;
+			float: left;
   }
   
   #resume .skills .sub-header {
@@ -203,6 +203,9 @@ body {
 	color:seashell;
   }
   
+ 
+
+ 
   #portfolio-header {
 	text-align: center;
   }
@@ -248,16 +251,7 @@ body {
 	  float: none;
 	  width: 100%;
 	}
-	li a {
-	  -webkit-transition: background-size .4s ease;
-	  transition: background-size .4s ease;
-	  background: -webkit-gradient(linear, left top, left bottom, color-stop(62%, transparent), color-stop(0, seashell) center center/0% 75% no-repeat;
-	  background: linear-gradient(to bottom, transparent 62%, slategray 0) center center/0% 75% no-repeat;
-	  font-family:  'Paytone One', sans-serif;
-	  padding: 0 6px 2px 6px;
-	  cursor: pointer;
-	  letter-spacing: .08rem;
-	}
+	
 	li a:hover {
 	  background-size: 100% 100%;
 	  color:seashell;
