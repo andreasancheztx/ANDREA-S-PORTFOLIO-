@@ -21,7 +21,7 @@ body {
   
   .jumbotron {
 	background-color:slateblue;
-	color: #fff;
+	color: seashell;
 	height: 600px;
 	width: 100%;
   }
@@ -78,7 +78,6 @@ body {
   }
 
   
-  
   .button-wrapper {
 	width: 100%;
 	text-align: center;
@@ -96,6 +95,7 @@ body {
 		-ms-flex-align: center;
 			align-items: center;
   }
+  
   
   #download-button {
 	border: solid 1px seashell;
@@ -120,10 +120,12 @@ body {
   
   #resume li {
 	color: seashell;
+	font-weight: 200;
   }
   
   #resume dd {
 	color: seashell;
+	font-weight: lighter;
   }
   
   #resume dt {
@@ -149,12 +151,17 @@ body {
   }
   
   #resume .skills .sub-header {
-	width: 100%;
-	border-top: solid 3px slateblue;
+	width: 150%;
+	border-top: solid 3px seashell;
   }
   
+  #resume .education .sub-header {
+	width: 100%;
+	border-top: solid 3px seashell;
+  }
+
   #resume .education {
-	width: 50%;
+	width: 40%;
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
@@ -175,7 +182,7 @@ body {
   
   #resumeHeader {
 	text-align: center;
-	color: #fff;
+	color:seashell;
 	font-weight: 700;
 	font-size: 55px;
   }
