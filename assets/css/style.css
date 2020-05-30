@@ -12,11 +12,11 @@ body {
   
   
   #navbar-toggler-icon {
-	color: slateblue
+	color: slateblue;
   }
   
   li a {
-	color: seashell
+	color: seashell;
   }
   
   .jumbotron {
@@ -53,7 +53,7 @@ body {
   
   .embeddedLink {
 	font-weight: 700;
-	color: slateblue
+	color: slateblue;
 	text-decoration: none;
 	padding: 5px;
 	font-size: 20px;
@@ -123,7 +123,7 @@ body {
   }
   
   #resume dd {
-	color: seashell
+	color: seashell;
   }
   
   #resume dt {
@@ -188,12 +188,12 @@ body {
   #contact {
 	background-color: goldenrod;
 	text-align: center;
-	color: #fff;
+	color:seashell;
   }
   
   #contact p {
 	font-size: 18px;
-	color: #fff;
+	color:seashell;
   }
   
   #portfolio-header {
