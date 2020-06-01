@@ -1,15 +1,15 @@
-
 body {
 	position: relative; 
-	font-family: 'Paytone One', sans-serif;
+	font-family:'Lobster Two', cursive;
+	background-image:url("../images/PaintSquares.jpg");
+	background-size: 200%;
+	
 }
   
   nav {
-	background-color: goldenrod;
+	background-color: tan;
 	width: 100%;
   }
-  
-  
   
   #navbar-toggler-icon {
 	color: slateblue;
@@ -20,26 +20,27 @@ body {
   }
   
   .jumbotron {
-	background-color:slateblue;
-	color: seashell;
+	background-color: cadetblue;
+	background-size: 100%;
+	color:seashell;
 	height: 600px;
 	width: 100%;
   }
   
   #name-tag {
-	-webkit-text-stroke: 1px seashell;
-	color:slategray;
-	font-size: 60px;
+	-webkit-text-stroke: 3px tan;
+	color:seashell;
+	font-size: 55px;
   }
   
   .text-about i {
 	margin-left: 15px;
-	font-size: 40px;
+	font-size: 55px;
 	color: seashell;
   }
   
   .text-about i:hover {
-	color: goldenrod;
+	color: tan;
   }
   
   h1 {
@@ -72,8 +73,8 @@ body {
   
   #portfolioHeader {
 	text-align: center;
-	color:slateblue;
-	font-weight: 700;
+	color:cadetblue;
+	font-weight: 200;
 	font-size: 55px;
   }
 
@@ -110,7 +111,7 @@ body {
   }
   
   #resume {
-	background-color: slateblue;
+	background-color: cadetblue;
   }
   
   #resume h2 {
@@ -189,11 +190,11 @@ body {
   
   .star-primary {
 	width: 45%;
-	border-top: solid 3px slategray;
+	border-top: solid 3px seashell;
   }
   
   #contact {
-	background-color: goldenrod;
+	background-color: tan;
 	text-align: center;
 	color:seashell;
   }
@@ -213,7 +214,7 @@ body {
   footer {
 	text-align: center;
 	margin: 20px 40px;
-	color: #6b6a6a;
+	color: cadetblue;
   }
   
   @media (max-width: 767px) {
@@ -224,8 +225,8 @@ body {
 	  display: block !important;
 	}
 	nav li a:hover {
-	  background-color: #00B2A9;
-	  color: #fff;
+	  background-color: teal;
+	  color: seashell
 	}
   }
   
@@ -254,7 +255,9 @@ body {
 	
 	li a:hover {
 	  background-size: 100% 100%;
-	  color:seashell;
+	  color: cadetblue;
+	  font-size: large;
+	  background-color: seashell;
 	}
 	li a:active {
 	  background-size: 80% 100%;
