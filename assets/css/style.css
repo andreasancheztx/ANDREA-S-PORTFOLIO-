@@ -7,12 +7,14 @@ body {
 }
   
   nav {
+	  font-size: x-large;
 	background-color: tan;
 	width: 100%;
   }
   
   #navbar-toggler-icon {
-	color: slateblue;
+	  font-size: x-large;
+	color:cadetblue;
   }
   
   li a {
@@ -28,7 +30,7 @@ body {
   }
   
   #name-tag {
-	-webkit-text-stroke: 3px tan;
+	-webkit-text-stroke: 3px silver;
 	color:seashell;
 	font-size: 55px;
   }
@@ -85,7 +87,7 @@ body {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-orient: horizontal;
+	-webkit-box-orient: vertical;
 	-webkit-box-direction: normal;
 		-ms-flex-flow: row wrap;
 			flex-flow: row wrap;
@@ -122,15 +124,19 @@ body {
   #resume li {
 	color: seashell;
 	font-weight: 200;
+	font-size: x-large;
   }
   
   #resume dd {
 	color: seashell;
 	font-weight: lighter;
+	font-size: x-large;
   }
   
   #resume dt {
 	color:seashell;
+	font-size: x-large;
+
   }
   
   #resume .skills {
@@ -138,7 +144,7 @@ body {
 	display: -webkit-box;
 	display: -ms-flexbox;
 	display: flex;
-	-webkit-box-orient: vertical;
+	-webkit-box-orient: horizontal;
 	-webkit-box-direction: normal;
 		-ms-flex-flow: column wrap;
 			flex-flow: column wrap;
@@ -200,7 +206,7 @@ body {
   }
   
   #contact p {
-	font-size: 18px;
+	font-size: 30px;
 	color:seashell;
   }
   
