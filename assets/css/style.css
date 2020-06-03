@@ -54,13 +54,7 @@ body {
 	text-align: center;
   }
   
-  .embeddedLink {
-	font-weight: 700;
-	color: slateblue;
-	text-decoration: none;
-	padding: 5px;
-	font-size: 20px;
-  }
+
   
   .embeddedLink:hover {
 	color: slategray;
@@ -210,9 +204,7 @@ body {
 	color:seashell;
   }
   
- 
-
- 
+  
   #portfolio-header {
 	text-align: center;
   }
