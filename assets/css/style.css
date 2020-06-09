@@ -5,6 +5,15 @@ body {
 	background-size: 200%;
 	
 }
+
+.card{
+	height: 500px
+}
+
+.imgcard{
+	height: 300px;
+	width: auto;
+}
   
   nav {
 	  font-size: x-large;
